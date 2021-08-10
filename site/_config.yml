@@ -1,0 +1,40 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Self-Determination: Singapore's 1955 Election"
+email: "reubenwxw@gmail.com"
+author: "Reuben X. Wang"
+description: "In 1955, Singaporeans went to the polls to elect their first democratically elected government.The election saw different visions of Singapore competing to capture the imaginations of Singaporeans. This is an exploration of what transpired, and what could had been."
+baseurl: ""
+url: "ge1955.rxw.sg"
+github_username:  virgilxw
+
+# Build settings
+markdown: kramdown
+theme: alembic-jekyll-theme
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

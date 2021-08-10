@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Self-Determination: Singapore's 1955 Election</title>
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<meta name="author" content="Reuben X. Wang">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--CSS Reset-->
+<link rel="stylesheet" href="/assets/css/reset.css">
+
+<!-- Leaflet -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous" />
+
+<!--Leaflet plugins-->
+<script type="text/javascript" src="/assets/js/leaflet.ajax.js"></script>
+<script type="text/javascript" src="/assets/js/styledLayerControl.js"></script>
+<script type="text/javascript" src="/assets/js/leaflet.textpath.js"></script>
+<link rel="stylesheet" href="/assets/css/styledLayerControl.css">
+<script type="text/javascript" src="/assets/js/leaflet-side-by-side.js"></script>
+
+
+
+<!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+<!--Scrollmagic and animation libraries-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js" integrity="sha256-ZTEnMVwBY082yM/d9tFkglZux9pVgwfOAg6HD4reObU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js" integrity="sha256-31FC/OT6XpfjAhj9FuXjw5/wPXXawCAjJQ29E23/XPk=" crossorigin="anonymous"></script>
+
+<!--D3.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" integrity="sha256-+9Mf3cAVmxxudDsr1XwXUeRZFtvdWVYdq5/vcgiYyNU=" crossorigin="anonymous"></script>
+
+<!--Custom JS-->
+<script src="/assets/js/helper.js"></script>
+
+<!--Custom CSS-->
+<link rel="stylesheet" href="/assets/css/header.css">
+<link rel="stylesheet" href="/assets/css/common.css">
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Farro|Libre+Baskerville|Muli&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="site-container">
+     <header>
+	<div>
+		<a href="/index.html" class="branding nav_links">Self Determination: Singapore's 1955 Elections</a>
+	</div>
+	<nav>
+		<ul class="nav_links">
+			<li><a class="nav_links" href="/results.html">Story</a></li>
+			<li><a class="nav_links" href="/map.html">Map</a></li>
+			<li><a class="nav_links" href="/about.html">About</a></li>
+		</ul>
+	</nav>
+</header>
+ <div id="content">
+    <nav class="aside column">
+        <div>
+            <h1>1955 Legislative Elections</h1>
+            <p class="text-muted">2 April 1955</p>
+        </div>
+        <div class="row centred vote-turnout">
+            <div>
+                <p>156,324</p>
+                <p class="small">votes</p>
+            </div>
+            <div class="line-divider"></div>
+            <div>
+                <p>52.7%</p>
+                <p class="small">turnout</p>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <p>Government</p>
+                <p>Opposition</p>
+            </div>
+            <p class="aside-text">25 Elected Seats</p>
+            <div class="viz-elected"></div>
+        </div>
+        <div>
+            <p class="aside-text">7 Non-Elected Seats</p>
+            <div class="viz-non-elected"></div>
+        </div>
+    </nav>
+    <div id="resize"></div>
+    <main id="map"></main>
+</div>
+<script type="text/javascript" src="/assets/js/map.js"></script>
+<link rel="stylesheet" href="/assets/css/map.css">
+</div>
+</body>
+
+</html>
